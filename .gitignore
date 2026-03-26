@@ -2,6 +2,19 @@
 build/
 sdkconfig
 sdkconfig.old
+dependencies.lock
+managed_components/
+
+# CMake / Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_log
+.ninja_deps
+
+# Logs
 *.log
 
 # OS
@@ -12,5 +25,10 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Python cache
+# Python
 __pycache__/
+*.pyc
+
+# Backup / temp
+*~
+*.swp
