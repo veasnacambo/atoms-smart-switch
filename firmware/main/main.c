@@ -10,11 +10,11 @@ void app_main(void)
     switch_input_init();
 
     while (1) {
-        if (switch_input_was_pressed(1)) {
+        if (switch_input_read(1)) {
             relay_toggle(1);
         }
 
-        if (switch_input_was_pressed(2)) {
+        if (switch_input_read(2)) {
             relay_toggle(2);
         }
 
