@@ -17,6 +17,9 @@ static gpio_num_t relay_channel_to_gpio(int channel)
     }
 }
 
+
+/*  initial relay by define pin structure.
+*/
 void relay_init(void)
 {
     gpio_config_t io_conf = {
